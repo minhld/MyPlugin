@@ -22,7 +22,7 @@ public class AskQuestionAction extends AnAction {
         String selectedText = caretModel.getCurrentCaret().getSelectedText();
 
         String query = selectedText.replace(' ', '+') + languageTag;
-        BrowserUtil.browse("https://stackoverflow.com/questions/ask");
+        // BrowserUtil.browse("https://stackoverflow.com/questions/ask");
     }
 
     @Override
